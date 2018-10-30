@@ -99,13 +99,20 @@ def debtValue(y):
 
 
 # 4. RULE
-#  debt\income      low		below av.	avg.	high
 
-#  few				 M		   M		 N		 N
-
-#  normal			 Y	       M		 M		 N
-
-#  much				 Y		   Y		 M		 M
+# INCOME            DEBTS           ACCEPTANCE
+# L                 F               MAYBE
+# L                 N               YES
+# L                 M               YES
+# B                 F               MAYBE
+# B                 N               MAYBE
+# B                 M               YES
+# A                 F               NO
+# A                 N               MAYBE
+# A                 M               MAYBE
+# H                 F               NO
+# H                 N               NO
+# H                 M               MAYBE
 
 
 # 5. INFERENCE
